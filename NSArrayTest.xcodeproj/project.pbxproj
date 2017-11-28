@@ -13,6 +13,8 @@
 		3F5B56AD1FCD175000883B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5B56AC1FCD175000883B23 /* Assets.xcassets */; };
 		3F5B56B01FCD175000883B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5B56AE1FCD175000883B23 /* LaunchScreen.storyboard */; };
 		3F5B56B31FCD175000883B23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B56B21FCD175000883B23 /* main.m */; };
+		3F5B56BB1FCD191700883B23 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B56BA1FCD191700883B23 /* NSArray+Safe.m */; };
+		3F5B56BD1FCD389800883B23 /* Swzzling.h in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B56BC1FCD389800883B23 /* Swzzling.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		3F5B56AF1FCD175000883B23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F5B56B11FCD175000883B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F5B56B21FCD175000883B23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F5B56B91FCD191700883B23 /* NSArray+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		3F5B56BA1FCD191700883B23 /* NSArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		3F5B56BC1FCD389800883B23 /* Swzzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swzzling.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				3F5B56AE1FCD175000883B23 /* LaunchScreen.storyboard */,
 				3F5B56B11FCD175000883B23 /* Info.plist */,
 				3F5B56B21FCD175000883B23 /* main.m */,
+				3F5B56B91FCD191700883B23 /* NSArray+Safe.h */,
+				3F5B56BA1FCD191700883B23 /* NSArray+Safe.m */,
+				3F5B56BC1FCD389800883B23 /* Swzzling.h */,
 			);
 			path = NSArrayTest;
 			sourceTree = "<group>";
@@ -142,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5B56BB1FCD191700883B23 /* NSArray+Safe.m in Sources */,
 				3F5B56A81FCD175000883B23 /* ViewController.m in Sources */,
+				3F5B56BD1FCD389800883B23 /* Swzzling.h in Sources */,
 				3F5B56B31FCD175000883B23 /* main.m in Sources */,
 				3F5B56A51FCD175000883B23 /* AppDelegate.m in Sources */,
 			);
